@@ -2,9 +2,9 @@
 
 name = input("What is your name?")
 
-#Remove whitespace from a str
+#Remove whitespace from a str and capitalizing
 
-name = name.strip()
+name = name.strip().title()
 #print the output
 print("Hello", name)
 

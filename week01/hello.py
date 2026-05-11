@@ -4,3 +4,7 @@ name = input("What is your name?")
 
 #print the output
 print("Hello", name)
+
+#format string
+
+print(f"Hello, {name}")

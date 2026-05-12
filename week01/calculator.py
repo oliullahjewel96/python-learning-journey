@@ -5,4 +5,5 @@
 x = float(input("Enter the value of X "))
 y = float(input("Enter the value of y "))
 
-print(f"The result is: {x+y}")
+z = round(x+y)
+print(f"The result is: {z:,}")

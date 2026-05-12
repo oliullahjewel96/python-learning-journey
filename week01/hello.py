@@ -1,17 +1,27 @@
 #ask a user for input
 
-name = input("What is your name?")
+# name = input("What is your name?")
 
-#Remove whitespace from a str and capitalizing
+# #Remove whitespace from a str and capitalizing
 
-name = name.strip().title()
+# name = name.strip().title()
 
-#Split's name into first and last name
-first, last = name.split(" ")
+# #Split's name into first and last name
+# first, last = name.split(" ")
 
-#print the output
-# print("Hello", name)
+# #print the output
+# # print("Hello", name)
 
-#format string
+# #format string
 
-print(f"Hello, {first}")
+# print(f"Hello, {first}")
+
+
+#function
+
+def hello(to):
+    print('Hello', to)
+
+
+name = input("What's Your name?")
+hello(name)

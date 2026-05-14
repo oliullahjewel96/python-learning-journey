@@ -1,7 +1,19 @@
-students = ["Hermione", "Harry", "Ron"]
+# students = ["Hermione", "Harry", "Ron"]
 
-# for student in students:
-#     print(student)
+# # for student in students:
+# #     print(student)
 
-for i in range(len(students)):
-    print(i+1, students[i])
+# for i in range(len(students)):
+#     print(i+1, students[i])
+
+
+
+students = {
+    "Hermione": "Gryffindor",
+    "Harry": "Gryffindor",
+    "Ron": "Gryffindor",
+    "Draco": "Slytherine"
+}
+
+for student in students:
+    print(student, students[student], sep=",")
